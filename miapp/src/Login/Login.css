@@ -1,0 +1,54 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-container form {
+    width: 100%;
+    max-width: 500px; 
+}
+
+.form-container .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.form-container .form-group label,
+.form-container .form-group input {
+    width: 100%;
+    max-width: 400px; 
+}
+
+label{
+    color: black;
+}
+
+.button-margin {
+    margin-bottom: 50px; 
+}
+
+.btn-reset {
+    background-color: #cbc4ae; 
+    color: white;
+    border: none;
+}
+
+.btn-reset:hover {
+    background-color:#a78282; 
+    color: white;
+}
+
+.btn-login {
+    background-color: #cbc4ae; 
+    color: white;
+    border: none;
+}
+
+.btn-login:hover {
+    background-color: #a78282; 
+    color: white;
+}
+
