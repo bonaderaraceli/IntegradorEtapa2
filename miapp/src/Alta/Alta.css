@@ -1,0 +1,63 @@
+main {
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  #ProductoForm {
+    display: flex;
+    flex-direction: column;
+    width: 90%; 
+    max-width: 1200px; 
+    margin: auto;
+    border-radius: 10px;
+  }
+  
+  #ProductoForm div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  #ProductoForm label {
+    margin-top: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #a78282;
+  }
+  
+  #ProductoForm input {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #cbc4ae;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%; 
+    box-sizing: border-box; 
+  }
+  
+  #ProductoForm button {
+    margin-top: 50px;
+    margin-block-end: 40px;
+    background-color: #a78282;
+    color: #efece5;
+    border: none;
+    border-radius: 5px;
+    font-family: 'MiFuente';
+    cursor: pointer;
+  }
+  
+  .boton{
+    width: 80px;
+    height: auto;
+    margin: 15px;
+    padding:5px;
+    font-family: 'MiFuente';
+    color:#efece5;
+  }

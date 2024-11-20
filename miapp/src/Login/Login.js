@@ -61,10 +61,10 @@ const Login = () => {
                     </div>
 
                     <div className='d-flex mt-5 justify-content-around'>                       
-                        <button type="reset" className="btn w-25 button-margin btn-reset">
+                        <button type="reset" className="btn w-50 button-margin btn-reset">
                             Borrar
                         </button>
-                        <button type="submit" onClick={loginUser} className="btn w-25 button-margin btn-reset">
+                        <button type="submit" onClick={loginUser} className="btn w-50 button-margin btn-reset">
                             Login
                         </button>
                     </div>

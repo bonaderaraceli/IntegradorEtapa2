@@ -1,0 +1,28 @@
+#ContactoForm {
+    display:flex;
+    flex-direction: column;
+}
+
+#ContactoForm label {
+    margin-top: 25px;
+    
+    color:#a78282;
+}
+
+#ContactoForm input{
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #cbc4ae;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#ContactoForm button {
+    margin-top: 50px;
+    margin-block-end: 40px;
+    background-color: #a78282;
+    color: #efece5;
+    border: none;
+    border-radius: 5px;
+}
+

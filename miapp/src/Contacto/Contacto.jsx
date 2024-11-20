@@ -1,3 +1,5 @@
+import './Contacto.css';
+
 const Contacto = () => {
     const enviarFormulario = (evento) => {
         evento.preventDefault(); 
@@ -7,8 +9,9 @@ const Contacto = () => {
 
     return (
         <>
+            <h1>Contacto</h1>
             <main className="contacto">
-                <h1>Contacto</h1>
+            
                 <form id="ContactoForm" onSubmit={enviarFormulario}>
                     <label htmlFor="nombre">Nombre:</label>
                     <input type="text" id="nombre" required />
